@@ -1,0 +1,26 @@
+{
+    "name": "Kick And Rush",
+    "short_name": "KickRush",
+    "description": "Aplikasi Infomasi Liga Inggris",
+    "start_url": "/index.html",
+    "gcm_sender_id": "1016996999435",
+    "display": "standalone",
+    "background_color": "#99E6DC",
+    "theme_color": "#99E6DC",
+    "icons": [{
+            "src": "image/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "image/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "image/icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ]
+}

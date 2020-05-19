@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Kick & Rush</title>
+    <meta name="description" content="My first PWA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="image/icon-96.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="image/icon-ios.png">
+    <meta name="theme-color" content="#99E6DC" />
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav class="teal" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container"><img class="img-icon" style="width: 50px; margin-bottom: -13px;" src="image/icon-96.png" alt=""></a>
+            <a href="#" class="sidenav-trigger" data-target="nav-mobile">&#9776;</a>
+
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav fixed" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+
+    <div id="body-content"></div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/standings.js"></script>
+    <script src="js/teams.js"></script>
+    <script src="js/detailteam.js"></script>
+    <script src="js/favorite.js"></script>
+    <script src="js/script-notification.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/sw-register.js"></script>
+    <script src="js/helpers.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            getTeams();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+img .responsive-img {
+    width: 20%;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #85d236;
+    ;
+}
+
+img .icon-fav {
+    padding: -20px;
+}
+
+#squad-team td {
+    font-size: 13px;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.content-jumbotron {
+    margin-left: 40px;
+}
+
+.jumbotron {
+    width: 100%;
+    background-image: url('../image/field2.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hr1 {
+    width: 70px;
+    float: left;
+    border: 2.5px solid #85d236;
+}
+
+.content-jumbotron p {
+    color: #fff;
+}
+
+.title {
+    color: #fff;
+    margin-top: 20px;
+    text-align: left;
+    margin: auto;
+}
+
+.preloader-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
